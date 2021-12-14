@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argocd/my-apps/app-2
+    path: argocd/apps/app2
     repoURL: https://github.com/jbarascut/myapp.git
     targetRevision: HEAD
