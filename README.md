@@ -1,2 +1,0 @@
-# myapp
-First helm app
