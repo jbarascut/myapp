@@ -6,7 +6,7 @@ metadata:
     app: nginx-app
 spec:
   destination:
-    namespace: dev
+    namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
     path: helm
@@ -14,7 +14,7 @@ spec:
     targetRevision: HEAD
     helm:
       values: ""
-  project: development
+  project: default
   syncPolicy:
     automated:
       prune: true
